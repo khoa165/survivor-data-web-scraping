@@ -1,0 +1,17 @@
+{
+  "name": "survivor-data-web-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node index.js"
+  },
+  "author": "Khoa Thien Le <khoatle165@gmail.com> (Harry)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
