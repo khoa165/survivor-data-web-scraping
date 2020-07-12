@@ -11,6 +11,11 @@ const parseContestants = ($, startingPoints, data) => {
       // Italic tag indicates the contestant has passed away.
       const italicTagFound = $(ele).find('i').length;
 
+      // ---------------- Avatar ----------------
+      const avatarRef = $($(this)[0].previousSibling).find('a')[0];
+      const avatarStringData = JSON.stringify(avatarRef.attribs);
+      const avatarJsonData = JSON.parse(avatarStringData);
+
       // ---------------- Name ----------------
       const nameStringData = JSON.stringify($(ele).find('a')[0].attribs);
       const nameJsonData = JSON.parse(nameStringData);
@@ -55,7 +60,8 @@ const parseContestants = ($, startingPoints, data) => {
       // ---------------- Total wins ----------------
       const totalWinsRef = individualWinsRef.nextSibling;
 
-      const href = site + nameJsonData.href;
+      const avatar = avatarJsonData.href;
+      const survivorWikiHref = site + nameJsonData.href;
       const name = nameJsonData.title;
       const birthday = birthdayJsonData['data-sort-value'];
       const passedAway = italicTagFound ? 'true' : 'false';
@@ -76,7 +82,8 @@ const parseContestants = ($, startingPoints, data) => {
 
       // Basic info. Stay the same for every season.
       const contestant = {
-        href,
+        avatar,
+        survivorWikiHref,
         name,
         birthday,
         passedAway,
