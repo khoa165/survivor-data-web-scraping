@@ -20,12 +20,19 @@ module.exports = () => {
           // Italic tag indicates the contestant has passed away.
           const italicTagFound = $(ele).find('i').length;
 
+          // ---------------- Name ----------------
           const nameStringData = JSON.stringify($(ele).find('a')[0].attribs);
           const nameJsonData = JSON.parse(nameStringData);
 
+          // ---------------- Birthday ----------------
           const birthdayRef = $(this)[0].nextSibling;
           const birthdayStringData = JSON.stringify(birthdayRef.attribs);
           const birthdayJsonData = JSON.parse(birthdayStringData);
+
+          const filmingAgeRef = birthdayRef.nextSibling;
+          const filmingAge = filmingAgeRef.text().trim();
+
+          console.log(filmingAge);
 
           const href = site + nameJsonData.href;
           const name = nameJsonData.title;
@@ -36,23 +43,15 @@ module.exports = () => {
           const key = nameJsonData.href.split('/wiki/')[1];
 
           data[key] = contestant;
-          // run = true;
+          run = true;
         }
-
-        // fs.appendFile(
-        //   './data/contestants.txt',
-        //   `${name} --- ${href}\n`,
-        //   (err) => {
-        //     if (err) console.log(err);
-        //   }
-        // );
       });
 
       const formattedData = JSON.stringify(data, null, 2);
 
-      fs.writeFile('./data/contestants.json', formattedData, (err) => {
-        if (err) console.log(err);
-      });
+      // fs.writeFile('./data/contestants.json', formattedData, (err) => {
+      //   if (err) console.log(err);
+      // });
     })
     .catch((err) => {
       console.log(err);
