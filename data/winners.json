@@ -15,7 +15,8 @@
     "totalDaysLasted": 54,
     "seasons": "Survivor: Borneo & Survivor: All-Stars",
     "averagePlacement": 7.5,
-    "winningSeason": "Survivor: Borneo"
+    "winningSeason": "Survivor: Borneo",
+    "winningSeasonNumber": 1
   },
   "Tina_Wesson": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/7/73/S27_tina_t.png/revision/latest?cb=20180531005056",
@@ -33,7 +34,8 @@
     "totalDaysLasted": 83,
     "seasons": "Survivor: The Australian Outback, Survivor: All-Stars & Survivor: Blood vs. Water",
     "averagePlacement": 7.7,
-    "winningSeason": "Survivor: The Australian Outback"
+    "winningSeason": "Survivor: The Australian Outback",
+    "winningSeasonNumber": 2
   },
   "Ethan_Zohn": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/0/0b/S40_ethan_t.png/revision/latest?cb=20200115170803",
@@ -51,7 +53,8 @@
     "totalDaysLasted": 95,
     "seasons": "Survivor: Africa, Survivor: All-Stars & Survivor: Winners at War",
     "averagePlacement": 10,
-    "winningSeason": "Survivor: Africa"
+    "winningSeason": "Survivor: Africa",
+    "winningSeasonNumber": 3
   },
   "Vecepia_Towery": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/3/33/S4_vecepia_t.png/revision/latest?cb=20180526005658",
@@ -69,7 +72,8 @@
     "totalDaysLasted": 39,
     "seasons": "Survivor: Marquesas",
     "averagePlacement": 1,
-    "winningSeason": "Survivor: Marquesas"
+    "winningSeason": "Survivor: Marquesas",
+    "winningSeasonNumber": 4
   },
   "Brian_Heidik": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/6/6a/S5_brian_t.png/revision/latest?cb=20180526214920",
@@ -87,7 +91,8 @@
     "totalDaysLasted": 39,
     "seasons": "Survivor: Thailand",
     "averagePlacement": 1,
-    "winningSeason": "Survivor: Thailand"
+    "winningSeason": "Survivor: Thailand",
+    "winningSeasonNumber": 5
   },
   "Jenna_Morasca": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/e/e3/S8_jennam_t.png/revision/latest?cb=20180527011549",
@@ -105,7 +110,8 @@
     "totalDaysLasted": 48,
     "seasons": "Survivor: The Amazon & Survivor: All-Stars",
     "averagePlacement": 8.5,
-    "winningSeason": "Survivor: The Amazon"
+    "winningSeason": "Survivor: The Amazon",
+    "winningSeasonNumber": 6
   },
   "Sandra_Diaz-Twine": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/f/f6/S40_sandra_t.png/revision/latest?cb=20200115171001",
@@ -123,7 +129,8 @@
     "totalDaysLasted": 110,
     "seasons": "Survivor: Pearl Islands, Survivor: Heroes vs. Villains, Survivor: Game Changers & Survivor: Winners at War",
     "averagePlacement": 8.3,
-    "winningSeason": "Survivor: Heroes vs. Villains"
+    "winningSeason": "Survivor: Heroes vs. Villains",
+    "winningSeasonNumber": 7
   },
   "Amber_Mariano": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/b/bf/S40_amber_t.png/revision/latest?cb=20200115170759",
@@ -141,7 +148,8 @@
     "totalDaysLasted": 107,
     "seasons": "Survivor: The Australian Outback, Survivor: All-Stars & Survivor: Winners at War",
     "averagePlacement": 9,
-    "winningSeason": "Survivor: All-Stars"
+    "winningSeason": "Survivor: All-Stars",
+    "winningSeasonNumber": 8
   },
   "Chris_Daugherty": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/c/c1/S9_chris_t.png/revision/latest?cb=20180527121416",
@@ -159,7 +167,8 @@
     "totalDaysLasted": 39,
     "seasons": "Survivor: Vanuatu",
     "averagePlacement": 1,
-    "winningSeason": "Survivor: Vanuatu"
+    "winningSeason": "Survivor: Vanuatu",
+    "winningSeasonNumber": 9
   },
   "Tom_Westman": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/5/51/S20_tom_t.png/revision/latest?cb=20180528184814",
@@ -177,7 +186,8 @@
     "totalDaysLasted": 53,
     "seasons": "Survivor: Palau & Survivor: Heroes vs. Villains",
     "averagePlacement": 8.5,
-    "winningSeason": "Survivor: Palau"
+    "winningSeason": "Survivor: Palau",
+    "winningSeasonNumber": 10
   },
   "Danni_Boatwright": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/6/6b/S40_danni_t.png/revision/latest?cb=20200115170801",
@@ -195,7 +205,8 @@
     "totalDaysLasted": 74,
     "seasons": "Survivor: Guatemala & Survivor: Winners at War",
     "averagePlacement": 10,
-    "winningSeason": "Survivor: Guatemala"
+    "winningSeason": "Survivor: Guatemala",
+    "winningSeasonNumber": 11
   },
   "Aras_Baskauskas": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/7/74/S27_aras_t.png/revision/latest?cb=20180531005046",
@@ -213,7 +224,8 @@
     "totalDaysLasted": 64,
     "seasons": "Survivor: Panama & Survivor: Blood vs. Water",
     "averagePlacement": 6,
-    "winningSeason": "Survivor: Panama"
+    "winningSeason": "Survivor: Panama",
+    "winningSeasonNumber": 12
   },
   "Yul_Kwon": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/6/64/S40_yul_t.png/revision/latest?cb=20200115171006",
@@ -231,7 +243,8 @@
     "totalDaysLasted": 74,
     "seasons": "Survivor: Cook Islands & Survivor: Winners at War",
     "averagePlacement": 7.5,
-    "winningSeason": "Survivor: Cook Islands"
+    "winningSeason": "Survivor: Cook Islands",
+    "winningSeasonNumber": 13
   },
   "Earl_Cole": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/0/0b/S14_earl_t.png/revision/latest?cb=20180527182613",
@@ -249,7 +262,8 @@
     "totalDaysLasted": 39,
     "seasons": "Survivor: Fiji",
     "averagePlacement": 1,
-    "winningSeason": "Survivor: Fiji"
+    "winningSeason": "Survivor: Fiji",
+    "winningSeasonNumber": 14
   },
   "Todd_Herzog": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/d/d7/S15_todd_t.png/revision/latest?cb=20180527225223",
@@ -267,7 +281,8 @@
     "totalDaysLasted": 39,
     "seasons": "Survivor: China",
     "averagePlacement": 1,
-    "winningSeason": "Survivor: China"
+    "winningSeason": "Survivor: China",
+    "winningSeasonNumber": 15
   },
   "Parvati_Shallow": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/e/e0/S40_parvati_t.png/revision/latest?cb=20200115170959",
@@ -286,6 +301,7 @@
     "seasons": "Survivor: Cook Islands, Survivor: Micronesia, Survivor: Heroes vs. Villains & Survivor: Winners at War",
     "averagePlacement": 6,
     "winningSeason": "Survivor: Micronesia",
+    "winningSeasonNumber": 16,
     "runnerUpSeason": "Survivor: Heroes vs. Villains"
   },
   "Bob_Crowley": {
@@ -304,7 +320,8 @@
     "totalDaysLasted": 39,
     "seasons": "Survivor: Gabon",
     "averagePlacement": 1,
-    "winningSeason": "Survivor: Gabon"
+    "winningSeason": "Survivor: Gabon",
+    "winningSeasonNumber": 17
   },
   "JT_Thomas": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/d/df/S34_jt_t.png/revision/latest?cb=20180602025230",
@@ -322,7 +339,8 @@
     "totalDaysLasted": 79,
     "seasons": "Survivor: Tocantins, Survivor: Heroes vs. Villains & Survivor: Game Changers",
     "averagePlacement": 9,
-    "winningSeason": "Survivor: Tocantins"
+    "winningSeason": "Survivor: Tocantins",
+    "winningSeasonNumber": 18
   },
   "Natalie_White": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/0/01/S19_natalie_t.png/revision/latest?cb=20180528164434",
@@ -340,7 +358,8 @@
     "totalDaysLasted": 39,
     "seasons": "Survivor: Samoa",
     "averagePlacement": 1,
-    "winningSeason": "Survivor: Samoa"
+    "winningSeason": "Survivor: Samoa",
+    "winningSeasonNumber": 19
   },
   "Fabio_Birza": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/9/90/S21_fabio_t.png/revision/latest?cb=20180529121630",
@@ -358,7 +377,8 @@
     "totalDaysLasted": 39,
     "seasons": "Survivor: Nicaragua",
     "averagePlacement": 1,
-    "winningSeason": "Survivor: Nicaragua"
+    "winningSeason": "Survivor: Nicaragua",
+    "winningSeasonNumber": 21
   },
   "Rob_Mariano": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/e/e4/S40_rob_t.png/revision/latest?cb=20200115171000",
@@ -377,6 +397,7 @@
     "seasons": "Survivor: Marquesas, Survivor: All-Stars, Survivor: Heroes vs. Villains, Survivor: Redemption Island & Survivor: Winners at War",
     "averagePlacement": 8.6,
     "winningSeason": "Survivor: Redemption Island",
+    "winningSeasonNumber": 22,
     "runnerUpSeason": "Survivor: All-Stars"
   },
   "Sophie_Clarke": {
@@ -395,7 +416,8 @@
     "totalDaysLasted": 74,
     "seasons": "Survivor: South Pacific & Survivor: Winners at War",
     "averagePlacement": 5.5,
-    "winningSeason": "Survivor: South Pacific"
+    "winningSeason": "Survivor: South Pacific",
+    "winningSeasonNumber": 23
   },
   "Kim_Spradlin-Wolfe": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/3/3b/S40_kim_t.png/revision/latest?cb=20200115170805",
@@ -413,7 +435,8 @@
     "totalDaysLasted": 74,
     "seasons": "Survivor: One World & Survivor: Winners at War",
     "averagePlacement": 5,
-    "winningSeason": "Survivor: One World"
+    "winningSeason": "Survivor: One World",
+    "winningSeasonNumber": 24
   },
   "Denise_Stapley": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/c/c8/S40_denise_t.png/revision/latest?cb=20200115170802",
@@ -431,7 +454,8 @@
     "totalDaysLasted": 75,
     "seasons": "Survivor: Philippines & Survivor: Winners at War",
     "averagePlacement": 3.5,
-    "winningSeason": "Survivor: Philippines"
+    "winningSeason": "Survivor: Philippines",
+    "winningSeasonNumber": 25
   },
   "John_Cochran": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/e/ea/S26_cochran_t.png/revision/latest?cb=20180530230311",
@@ -449,7 +473,8 @@
     "totalDaysLasted": 70,
     "seasons": "Survivor: South Pacific & Survivor: Caramoan",
     "averagePlacement": 4.5,
-    "winningSeason": "Survivor: Caramoan"
+    "winningSeason": "Survivor: Caramoan",
+    "winningSeasonNumber": 26
   },
   "Tyson_Apostol": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/b/ba/S40_tyson_t.png/revision/latest?cb=20200115171005",
@@ -467,7 +492,8 @@
     "totalDaysLasted": 116,
     "seasons": "Survivor: Tocantins, Survivor: Heroes vs. Villains, Survivor: Blood vs. Water & Survivor: Winners at War",
     "averagePlacement": 8.8,
-    "winningSeason": "Survivor: Blood vs. Water"
+    "winningSeason": "Survivor: Blood vs. Water",
+    "winningSeasonNumber": 27
   },
   "Tony_Vlachos": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/3/3b/S40_tony_t.png/revision/latest?cb=20200115171004",
@@ -485,7 +511,8 @@
     "totalDaysLasted": 84,
     "seasons": "Survivor: Cagayan, Survivor: Game Changers & Survivor: Winners at War",
     "averagePlacement": 7,
-    "winningSeason": "Survivor: Winners at War"
+    "winningSeason": "Survivor: Winners at War",
+    "winningSeasonNumber": 28
   },
   "Natalie_Anderson": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/6/62/S40_natalie_t.png/revision/latest?cb=20200115170807",
@@ -504,6 +531,7 @@
     "seasons": "Survivor: San Juan del Sur & Survivor: Winners at War",
     "averagePlacement": 1.5,
     "winningSeason": "Survivor: San Juan del Sur",
+    "winningSeasonNumber": 29,
     "runnerUpSeason": "Survivor: Winners at War"
   },
   "Mike_Holloway": {
@@ -522,7 +550,8 @@
     "totalDaysLasted": 39,
     "seasons": "Survivor: Worlds Apart",
     "averagePlacement": 1,
-    "winningSeason": "Survivor: Worlds Apart"
+    "winningSeason": "Survivor: Worlds Apart",
+    "winningSeasonNumber": 30
   },
   "Jeremy_Collins": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/0/00/S40_jeremy_t.png/revision/latest?cb=20200115170804",
@@ -540,7 +569,8 @@
     "totalDaysLasted": 98,
     "seasons": "Survivor: San Juan del Sur, Survivor: Cambodia & Survivor: Winners at War",
     "averagePlacement": 6.3,
-    "winningSeason": "Survivor: Cambodia"
+    "winningSeason": "Survivor: Cambodia",
+    "winningSeasonNumber": 31
   },
   "Michele_Fitzgerald": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/d/de/S40_michele_t.png/revision/latest?cb=20200115170806",
@@ -559,6 +589,7 @@
     "seasons": "Survivor: Kaôh Rōng & Survivor: Winners at War",
     "averagePlacement": 2,
     "winningSeason": "Survivor: Kaôh Rōng",
+    "winningSeasonNumber": 32,
     "secondRunnerUpSeason": "Survivor: Winners at War"
   },
   "Adam_Klein": {
@@ -577,7 +608,8 @@
     "totalDaysLasted": 74,
     "seasons": "Survivor: Millennials vs. Gen X & Survivor: Winners at War",
     "averagePlacement": 6.5,
-    "winningSeason": "Survivor: Millennials vs. Gen X"
+    "winningSeason": "Survivor: Millennials vs. Gen X",
+    "winningSeasonNumber": 33
   },
   "Sarah_Lacina": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/c/cf/S40_sarah_t.png/revision/latest?cb=20200115171002",
@@ -595,7 +627,8 @@
     "totalDaysLasted": 96,
     "seasons": "Survivor: Cagayan, Survivor: Game Changers & Survivor: Winners at War",
     "averagePlacement": 5.3,
-    "winningSeason": "Survivor: Game Changers"
+    "winningSeason": "Survivor: Game Changers",
+    "winningSeasonNumber": 34
   },
   "Ben_Driebergen": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/7/79/S40_ben_t.png/revision/latest?cb=20200115170800",
@@ -613,7 +646,8 @@
     "totalDaysLasted": 76,
     "seasons": "Survivor: Heroes vs. Healers vs. Hustlers & Survivor: Winners at War",
     "averagePlacement": 3,
-    "winningSeason": "Survivor: Heroes vs. Healers vs. Hustlers"
+    "winningSeason": "Survivor: Heroes vs. Healers vs. Hustlers",
+    "winningSeasonNumber": 35
   },
   "Wendell_Holland": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/6/69/S40_wendell_t.png/revision/latest?cb=20200115171005",
@@ -631,7 +665,8 @@
     "totalDaysLasted": 74,
     "seasons": "Survivor: Ghost Island & Survivor: Winners at War",
     "averagePlacement": 7,
-    "winningSeason": "Survivor: Ghost Island"
+    "winningSeason": "Survivor: Ghost Island",
+    "winningSeasonNumber": 36
   },
   "Nick_Wilson": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/9/91/S40_nick_t.png/revision/latest?cb=20200115170959",
@@ -649,7 +684,8 @@
     "totalDaysLasted": 74,
     "seasons": "Survivor: David vs. Goliath & Survivor: Winners at War",
     "averagePlacement": 4,
-    "winningSeason": "Survivor: David vs. Goliath"
+    "winningSeason": "Survivor: David vs. Goliath",
+    "winningSeasonNumber": 37
   },
   "Chris_Underwood": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/4/41/S38_chris_t.png/revision/latest?cb=20190201022726",
@@ -667,7 +703,8 @@
     "totalDaysLasted": 39,
     "seasons": "Survivor: Edge of Extinction",
     "averagePlacement": 1,
-    "winningSeason": "Survivor: Edge of Extinction"
+    "winningSeason": "Survivor: Edge of Extinction",
+    "winningSeasonNumber": 38
   },
   "Tommy_Sheehan": {
     "avatar": "https://vignette.wikia.nocookie.net/survivor/images/e/ec/S39_tommy_t.png/revision/latest?cb=20190909164322",
@@ -685,6 +722,7 @@
     "totalDaysLasted": 39,
     "seasons": "Survivor: Island of the Idols",
     "averagePlacement": 1,
-    "winningSeason": "Survivor: Island of the Idols"
+    "winningSeason": "Survivor: Island of the Idols",
+    "winningSeasonNumber": 39
   }
 }

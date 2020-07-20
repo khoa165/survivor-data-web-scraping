@@ -79,6 +79,7 @@ const processData = (list, winnerName) => {
   let totalVotesAgainst = (totalTribalWins = totalIndividualWins = totalDaysLasted = averagePlacement = 0),
     seasons = '',
     winningSeason,
+    winningSeasonNumber = 1000,
     runnerUpSeason,
     secondRunnerUpSeason;
   for (let i = 0; i < numberSeasons; i++) {
@@ -119,6 +120,7 @@ const processData = (list, winnerName) => {
 
     if (finishPlacement === 'Sole Survivor') {
       winningSeason = seasonName;
+      winningSeasonNumber = Math.min(seasonNumber, winningSeasonNumber);
       finishPlacement = 1;
     } else if (finishPlacement === 'Runner-Up') {
       runnerUpSeason = seasonName;
@@ -152,6 +154,7 @@ const processData = (list, winnerName) => {
     seasons,
     averagePlacement,
     winningSeason,
+    winningSeasonNumber,
   };
 
   if (runnerUpSeason) winner['runnerUpSeason'] = runnerUpSeason;
