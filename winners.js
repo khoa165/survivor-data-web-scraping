@@ -76,12 +76,19 @@ const processData = (list, winnerName) => {
     seasonNumber: originalSeasonNumber,
   } = seasonsStat[0];
 
-  let totalVotesAgainst = (totalTribalWins = totalIndividualWins = totalDaysLasted = averagePlacement = 0),
-    seasons = '',
-    winningSeason,
-    winningSeasonNumber = 1000,
-    runnerUpSeason,
-    secondRunnerUpSeason;
+  let totalVotesAgainst = 0;
+  let totalTribalWins = 0;
+  let totalIndividualWins = 0;
+  let totalDaysLasted = 0;
+  let averagePlacement = 0;
+  let seasons = '';
+  let winningSeason;
+  let winningSeasonNumber;
+  let secondWinningSeason;
+  let secondWinningSeasonNumber;
+  let runnerUpSeason;
+  let runnerUpSeasonNumber;
+  let secondRunnerUpSeason;
   for (let i = 0; i < numberSeasons; i++) {
     let {
       seasonName,
@@ -119,14 +126,22 @@ const processData = (list, winnerName) => {
     }
 
     if (finishPlacement === 'Sole Survivor') {
-      winningSeason = seasonName;
-      winningSeasonNumber = Math.min(seasonNumber, winningSeasonNumber);
+      if (!winningSeason) {
+        winningSeason = seasonName;
+        winningSeasonNumber = seasonNumber;
+      } else {
+        secondWinningSeason = seasonName;
+        secondWinningSeasonNumber = seasonNumber;
+      }
+
       finishPlacement = 1;
     } else if (finishPlacement === 'Runner-Up') {
       runnerUpSeason = seasonName;
+      runnerUpSeasonNumber = seasonNumber;
       finishPlacement = 2;
     } else if (finishPlacement === '2nd Runner-Up') {
       secondRunnerUpSeason = seasonName;
+      runnerUpSeasonNumber = seasonNumber;
       finishPlacement = 3;
     } else {
       finishPlacement = parseInt(finishPlacement.match(/\d+/)[0]);
@@ -157,9 +172,18 @@ const processData = (list, winnerName) => {
     winningSeasonNumber,
   };
 
-  if (runnerUpSeason) winner['runnerUpSeason'] = runnerUpSeason;
-  if (secondRunnerUpSeason)
+  if (runnerUpSeason) {
+    winner['runnerUpSeason'] = runnerUpSeason;
+    winner['runnerUpSeasonNumber'] = runnerUpSeasonNumber;
+  }
+  if (secondRunnerUpSeason) {
     winner['secondRunnerUpSeason'] = secondRunnerUpSeason;
+    winner['runnerUpSeasonNumber'] = runnerUpSeasonNumber;
+  }
+  if (secondWinningSeason) {
+    winner['secondWinningSeason'] = secondWinningSeason;
+    winner['secondWinningSeasonNumber'] = secondWinningSeasonNumber;
+  }
 
   // console.log(list[winnerName]);
   // console.log(winner);
