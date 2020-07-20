@@ -116,6 +116,8 @@ const parseContestants = ($, startingPoints, data) => {
         const seasonsStat = data[key]['seasonsStat'];
         seasonsStat[currentSeasonIndex] = contestantPerSeasonInfo;
         data[key]['numberSeasons'] = previousNumberSeasons + 1;
+        // Update latest avatar
+        data[key]['avatar'] = avatar;
       } else {
         data[key] = contestant;
         data[key]['seasonsStat'] = {};
@@ -129,7 +131,7 @@ const parseContestants = ($, startingPoints, data) => {
 };
 
 module.exports = () => {
-  fs.truncate('./data/contestants.json', 0, () => {});
+  fs.truncate('./data/draft-contestants.json', 0, () => {});
   rp(url)
     .then((html) => {
       const $ = cheerio.load(html);
@@ -159,7 +161,7 @@ module.exports = () => {
 
       const formattedData = JSON.stringify(data, null, 2);
 
-      fs.writeFile('./data/contestants.json', formattedData, (err) => {
+      fs.writeFile('./data/draft-contestants.json', formattedData, (err) => {
         if (err) console.log(err);
       });
     })
